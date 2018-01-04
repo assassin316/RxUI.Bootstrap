@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:ReactiveContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:base="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+			 xmlns:vms="clr-namespace:RxUI.Forms.Core.ViewModels"
+			 x:Class="RxUI.Forms.Core.Views.HomePage"
+			 x:TypeArguments="vms:HomeViewModel">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="Welcome to Xamarin.Forms!"
+				   VerticalOptions="CenterAndExpand"
+				   HorizontalOptions="CenterAndExpand" />
+		</StackLayout>
+	</ContentPage.Content>
+</base:ReactiveContentPage>
