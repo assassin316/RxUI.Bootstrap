@@ -98,7 +98,6 @@
     </Compile>
     <Compile Include="Bootstrapping\Bootstrapper.Core.cs" />
     <Compile Include="Bootstrapping\Bootstrapper.Overrides.cs" />
-    <Compile Include="Bootstrapping\LocatorSingleInstanceAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shell.xaml.cs" />
     <Compile Include="Views\HomeView.xaml.cs">
